@@ -66,7 +66,7 @@ function HomeTest() {
   if (flag && flag == 1) {
     const filtereduser = user?.find((u) => u.id === id);
 
-    console.log("userccotext", user);
+    console.log("usercontext", user);
     if (user && user.length >= 0 && !filtereduser) {
       return <h2>User not found</h2>;
     }
