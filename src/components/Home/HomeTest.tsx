@@ -42,7 +42,7 @@ function HomeTest() {
 
   useEffect(() => {
     retrigger();
-    console.log("retrigrred");
+    console.log("retriggered");
   }, [user, id]);
 
   const fetchUsers = async (id: string) => {
