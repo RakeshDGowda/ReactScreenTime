@@ -34,7 +34,7 @@ function Home() {
 
   return (
     <div className="container">
-      <h1>📱 Screen Time Tracker</h1>
+      <h1>📱 Screen Time Tracker APP</h1>
 
       <UserManagement
         users={users}
